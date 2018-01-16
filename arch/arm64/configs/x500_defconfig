@@ -1,6 +1,6 @@
 #
 #Automatically generated file; DO NOT EDIT.
-#Linux/arm64 3.10.104 Kernel Configuration
+#Linux/arm64 3.10.108 Kernel Configuration
 #
 CONFIG_CROSS_COMPILE="aarch64-linux-android-"
 CONFIG_LOCALVERSION="vishalk17-N-v1.0"
@@ -548,4 +548,12 @@ CONFIG_HAVE_TRUSTONIC_TEE_SUPPORT=y
 # goodix fingerprint
 CONFIG_FINGERPRINT_GOODIX_GF_TEE=y
 # goodix fingerprint end
+#
+# Pseudo filesystems
+#
+CONFIG_SQUASHFS=y
+CONFIG_SQUASHFS_LZ4=y
+CONFIG_SQUASHFS_FILE_DIRECT=y
+CONFIG_SQUASHFS_DECOMP_MULTI_PERCPU=y
+CONFIG_SQUASHFS_XATTR=y
 #
