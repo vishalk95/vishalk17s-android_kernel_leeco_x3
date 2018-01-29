@@ -1,5 +1,9 @@
+#
+#Automatically generated file; DO NOT EDIT.
+#Linux/arm64 3.10.104 Kernel Configuration
+#
 CONFIG_CROSS_COMPILE="aarch64-linux-android-"
-# CONFIG_LOCALVERSION_AUTO is not set
+CONFIG_LOCALVERSION="vishalk17-N-v1.0"
 CONFIG_AUDIT=y
 CONFIG_NO_HZ=y
 CONFIG_HIGH_RES_TIMERS=y
