@@ -3798,7 +3798,7 @@ static ssize_t show_Battery_VoltageNotify(struct device *dev, struct device_attr
 	return sprintf(buf, "%u\n", BMT_status.bat_vol);
 }
 
-static DEVICE_ATTR(Battery_VoltageNotify, 0664, show_Battery_VoltageNotify, NULL);
+static DEVICE_ATTR(Battery_VoltageNotify, 0444, show_Battery_VoltageNotify, NULL);
 
 
 /*[---Start tun on/off charging---]*/
