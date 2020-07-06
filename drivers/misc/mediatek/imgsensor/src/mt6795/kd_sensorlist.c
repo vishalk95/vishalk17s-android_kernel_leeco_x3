@@ -2747,8 +2747,8 @@ static ssize_t show_sub_camera_module_vendor(struct device *dev,struct device_at
    else
    	return snprintf(buf, PAGE_SIZE, "%s\n", "Unknown");   
 }
-static DEVICE_ATTR(main_camera_module_vendor, 0444, show_main_camera_module_vendor, NULL); //664
-static DEVICE_ATTR(sub_camera_module_vendor, 0444, show_sub_camera_module_vendor, NULL); //664
+static DEVICE_ATTR(main_camera_module_vendor, 0664, show_main_camera_module_vendor, NULL); //664
+static DEVICE_ATTR(sub_camera_module_vendor, 0664, show_sub_camera_module_vendor, NULL); //664
 #define CAMERA_HW_DYNAMIC_ALLOCATE_DEVNO 1
 /*******************************************************************************
 * RegisterCAMERA_HWCharDrv
